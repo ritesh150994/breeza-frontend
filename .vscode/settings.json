@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project": "Ritesh Kumar Agarwal's Team's Project",
+    "id": "2py8lboMHkbMXxy8HWOvmcSe93A",
+    "framework": "react-nextjs",
+    "typescript": false,
+    "styling": "CSS Modules",
+    "unit": "rem",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "/Users/bigstep./Desktop/projects/breeza/src/components",
+    "screensPath": "/Users/bigstep./Desktop/projects/breeza/src/pages"
+  }
+}

@@ -1,0 +1,510 @@
+.aboutContentChild {
+  height: 2.222rem;
+  width: 2.222rem;
+  position: relative;
+}
+.about {
+  position: relative;
+  font-weight: 600;
+}
+.aboutContent {
+  width: 10.328rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.vision {
+  margin: 0;
+  width: 32rem;
+}
+.visionMotivationSuccessContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  font-weight: 600;
+  font-family: inherit;
+}
+.aboutTitle {
+  width: 41.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-xl) 0rem 0rem;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.imageIcon {
+  align-self: stretch;
+  height: 24.278rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.aboutHeader {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-41xl-2);
+  min-width: 28.222rem;
+  max-width: 100%;
+}
+.imageIcon1 {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.frameChild {
+  position: absolute;
+  top: 5.25rem;
+  left: 14.333rem;
+  width: 5.556rem;
+  height: 5.556rem;
+  overflow: hidden;
+  display: none;
+}
+.imageParent {
+  align-self: stretch;
+  height: 24.311rem;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.theSuccessOf {
+  width: 30.333rem;
+  position: relative;
+  line-height: 163%;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.visionContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-30xl-6);
+  max-width: 100%;
+  padding-left: 4rem;
+}
+.vision1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0rem 0rem var(--padding-8xl);
+  box-sizing: border-box;
+  min-width: 34.444rem;
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  color: var(--color-5);
+}
+.aboutHeaderParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  /* gap: 6rem; */
+  max-width: 100%;
+}
+.whetherGroundUpContainer {
+  flex: 1;
+  position: relative;
+  line-height: 163%;
+  font-weight: 500;
+  display: inline-block;
+  min-height: 5.778rem;
+  max-width: 100%;
+}
+/* .fitOut {
+  width: 39.444rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  color: var(--color-5);
+} */
+ .fitOut {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* padding: 0rem var(--padding-8xs); */
+  box-sizing: border-box;
+  max-width: 1200px;
+  font-size: var(--font-size-base);
+  color: var(--color-5);
+ }
+
+/* .content {
+  position: absolute;
+  top: 70.389rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  max-width: 1200px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-4);
+  font-family: var(--font-urbanist);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+} */
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-31xl);
+    max-width: 1200px;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-4);
+    font-family: var(--font-urbanist);
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+}
+
+/* @media screen and (max-width: 1350px) {
+  .vision1 {
+    flex: 1;
+  }
+
+  .aboutHeaderParent {
+    flex-wrap: wrap;
+  }
+} */
+
+/* Add specific mobile styles */
+
+.mobileContent {
+  padding: 1rem;
+  text-align: center;
+}
+
+.mobileHeaderParent {
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.mobileAboutTitle {
+  text-align: center;
+}
+
+/* .mobileVision {
+  font-size: 1.5rem;
+  text-align: center;
+} */
+
+/* Mobile-specific styles */
+.mobileVision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.mobileText {
+  font-size: 1.42rem; /* Adjust size as needed */
+  font-weight: bold;
+  color: inherit; /* Matches current theme */
+  line-height: 1.5;
+}
+
+.tabText{
+  font-size: 2rem;
+}
+
+.mobileSuccessText {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 1023px) {
+  .about {
+    font-size: var(--font-size-7xl);
+  }
+  .mobileImageParent {
+    width: 100%;
+    height: auto;
+  }
+
+  .visionMotivationSuccessContainer {
+    font-size: var(--font-size-10xl);
+  }
+
+  .aboutHeader {
+    min-width: 100%;
+  }
+
+  .vision1 {
+    min-width: 100%;
+    padding: 0rem;
+  }
+  .content{
+    gap: 1.5rem;
+  }
+  .vision {
+    margin-top: 1rem;
+    width: 100%;
+    line-height: 1.5;
+    font-size: 0.8rem;
+    text-align: start;
+  }
+
+  .content {
+    padding: 2.5rem 2rem;
+      text-align: center;
+      /* width: 90%; */
+      width: 100%;
+    }
+  .mobileVision{
+    text-align: left;
+    align-items: start;
+  }
+
+  .aboutContent{
+    width: 8.5rem;
+  }
+
+  /* About Header adjustments */
+  .aboutHeader {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align elements */
+    gap: 1.5rem; /* Add spacing between items */
+    text-align: left;
+  }
+
+  /* Adjust title sizes for mobile */
+  .about {
+    font-size: 1.5rem;
+  }
+  .aboutTitle{
+    padding: 0;
+    width: 100%;
+  }
+  /* .visionMotivationSuccessContainer {
+    font-size: 2rem;
+  } */
+
+  /* Image adjustments */
+  .imageIcon {
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    width: auto;
+  }
+
+  .imageIcon1 {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+
+  /* Vision Content adjustments */
+  .visionContent {
+    padding-left: 0rem;
+    gap: 1rem;
+  }
+  .whetherGroundUpContainer,
+  .theSuccessOf {
+    width: 100%;
+    line-height: 1.5;
+    font-size: 0.8rem;
+    text-align: start;
+  }
+
+  /* Adjust text blocks for mobile readability */
+  /* .whetherGroundUpContainer p {
+    width: 100%;
+    line-height: 1.5;
+    font-size: 0.8rem;
+    text-align: start; 
+  } */
+
+  /* Adjust FitOut section */
+  .fitOut {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  /* Adjust the header parent */
+  .aboutHeaderParent {
+    flex-direction: column; /* Stack elements vertically */
+    gap: 1rem;
+    /* align-items: center; */
+  }
+}
+@media screen and (max-width: 450px) {
+  .about {
+    font-size: var(--font-size-lgi);
+  }
+
+  .visionMotivationSuccessContainer {
+    font-size: var(--font-size-3xl);
+  }
+  .content{
+    padding-top: 0rem;
+  }
+}
+
+/* @media screen and (max-width: 400px) {
+   .vision{
+    width: 100%;
+   }
+} */
+
+@media screen and (max-width: 768px) {
+  /* Content section adjustments */
+  .content {
+    padding: 2.5rem 1rem;
+    text-align: center;
+    width: 100%;
+  }
+  .mobileVision{
+    text-align: left;
+    align-items: start;
+  }
+
+  .vision{
+    /* margin-top: 17rem; */
+    width: 100%;
+  }
+
+  .aboutContent{
+    width: 8.5rem;
+  }
+
+  /* About Header adjustments */
+  .aboutHeader {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align elements */
+    gap: 1.5rem; /* Add spacing between items */
+  }
+
+  /* Adjust title sizes for mobile */
+  .about {
+    font-size: 1.5rem;
+  }
+  .aboutTitle{
+    padding: 0;
+  }
+  .visionMotivationSuccessContainer {
+    font-size: 2rem;
+  }
+
+  /* Image adjustments */
+  .imageIcon {
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    width: auto;
+  }
+
+  .imageIcon1 {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+
+  /* Vision Content adjustments */
+  .visionContent {
+    padding-left: 0rem;
+    gap: 1rem;
+  }
+  .whetherGroundUpContainer,
+  .theSuccessOf {
+    width: 100%;
+    line-height: 1.5;
+    font-size: 0.8rem;
+    text-align: start;
+  }
+
+  /* Adjust text blocks for mobile readability */
+  /* .whetherGroundUpContainer p {
+    width: 100%;
+    line-height: 1.5;
+    font-size: 0.8rem;
+    text-align: start; 
+  } */
+
+  /* Adjust FitOut section */
+  .fitOut {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  /* Adjust the header parent */
+  .aboutHeaderParent {
+    flex-direction: column; /* Stack elements vertically */
+    gap: 1rem;
+    /* align-items: center; */
+  }
+}
+
+/* @media screen and (max-width: 450px) {
+  .vision{
+    margin-top: 15.5rem;
+  }
+} */
+
+/* @media screen and (max-width: 400px) {
+  .imageIcon1{
+    top: 10.5rem;
+  }
+  .content{
+    top: 72.389rem;
+  }
+} */
+
+@media screen and (max-width: 372px) {
+  .mobileText{
+    font-size: 1.26rem;
+  }
+  /* .vision{
+    margin-top: 12.5rem;
+  } */
+  /* .content{
+    top: 74.389rem;
+  } */
+}

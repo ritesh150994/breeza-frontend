@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;900&display=swap");
+html {
+  font-size: 18;
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-urbanist: Urbanist;
+
+  /* font sizes */
+  --font-size-base: 0.889rem;
+  --font-size-3xl: 1.222rem;
+  --font-size-lg: 1rem;
+  --font-size-sm: 0.778rem;
+  --font-size-5xl: 1.333rem;
+  --font-size-lgi: 1.056rem;
+  --font-size-xl: 1.111rem;
+  --font-size-13xl: 1.778rem;
+  --font-size-7xl: 1.444rem;
+  --font-size-17xl: 2rem;
+  --font-size-10xl: 1.611rem;
+
+  /* Colors */
+  --color-3: #fff;
+  --color-5: #8f9396;
+  --color-4: #111;
+  --color-slategray-100: #496e83;
+  --color-slategray-200: rgba(73, 110, 131, 0.15);
+
+  /* Gaps */
+  --gap-36xl-2: 3.066rem;
+  --gap-xl: 1.111rem;
+  --gap-mini-5: 0.805rem;
+  --gap-lgi: 1.055rem;
+  --gap-11xl: 1.666rem;
+  --gap-3xs: 0.555rem;
+  --gap-19xl-9: 2.161rem;
+  --gap-21xl-2: 2.233rem;
+  --gap-2xs-1: 0.561rem;
+  --gap-3xl-2: 1.233rem;
+  --gap-mid-2: 0.955rem;
+  --gap-53xl: 4rem;
+  --gap-17xl: 2rem;
+  --gap-lg: 1rem;
+  --gap-10xl-8: 1.655rem;
+  --gap-21xl-3: 2.238rem;
+  --gap-20xl-9: 2.216rem;
+  --gap-31xl: 2.777rem;
+  --gap-174xl: 10.722rem;
+  --gap-30xl-6: 2.755rem;
+  --gap-41xl-2: 3.344rem;
+  --gap-21xl: 2.222rem;
+  --gap-719xl-6: 41.033rem;
+  --gap-166xl: 10.277rem;
+  --gap-350xl: 20.5rem;
+  --gap-73xl: 5.111rem;
+  --gap-xs-4: 0.633rem;
+
+  /* Paddings */
+  --padding-8xs-2: 0.233rem;
+  --padding-581xl-5: 33.361rem;
+  --padding-11xs: 0.111rem;
+  --padding-8xs-7: 0.261rem;
+  --padding-12xs: 0.055rem;
+  --padding-xl: 1.111rem;
+  --padding-143xl: 9rem;
+  --padding-144xl: 9.055rem;
+  --padding-21xl: 2.222rem;
+  --padding-62xl: 4.5rem;
+  --padding-81xl: 5.555rem;
+  --padding-112xl: 7.277rem;
+  --padding-lgi: 1.055rem;
+  --padding-base: 0.888rem;
+  --padding-2xl: 1.166rem;
+  --padding-10xs: 0.166rem;
+  --padding-9xs: 0.222rem;
+  --padding-8xs: 0.277rem;
+  --padding-8xl: 1.5rem;
+  --padding-24xl: 2.388rem;
+  --padding-30xl-6: 2.755rem;
+  --padding-2xs: 0.611rem;
+  --padding-sm: 0.777rem;
+  --padding-9xs-8: 0.211rem;
+}

@@ -1,0 +1,115 @@
+.servicesTitleChild {
+  height: 2.222rem;
+  width: 2.222rem;
+  position: relative;
+  z-index: 1;
+}
+.services {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.frameChild {
+  align-self: stretch;
+  height: 0.111rem;
+  position: relative;
+  border-top: 2px solid var(--color-4);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.servicesTitleInner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 0rem 0rem;
+  box-sizing: border-box;
+  min-width: 48rem;
+  max-width: 100%;
+}
+.servicesTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-20xl-9);
+  max-width: 100%;
+}
+.aQuickIntro {
+  margin: 0;
+}
+.aQuickIntroContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.servicesDescription {
+  width: 40.806rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-10xs) 0rem var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-17xl);
+}
+.servicesHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl-3);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-4);
+  font-family: var(--font-urbanist);
+}
+
+/* @media screen and (max-width: 1850px) {
+  .servicesTitle {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .servicesTitleInner {
+    min-width: 100%;
+  }
+} */
+@media screen and (max-width: 925px) {
+  .services {
+    font-size: 1.5rem;
+  }
+
+  .servicesTitle {
+    gap: var(--gap-xl);
+  }
+
+  .aQuickIntroContainer {
+    font-size: var(--font-size-10xl);
+  }
+
+  .servicesHeader {
+    gap: var(--gap-xl);
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  /* .services {
+    font-size: var(--font-size-lgi);
+  } */
+
+  .aQuickIntroContainer {
+    font-size: var(--font-size-3xl);
+  }
+}

@@ -1,0 +1,384 @@
+/* .frameChild {
+  height: 0.056rem;
+  position: relative;
+  border-top: 1px solid var(--color-4);
+  z-index: 1;
+} */
+.upperChild {
+  height: 0.056rem; /* Line thickness */
+  position: relative;
+  display: flex; /* Arrange the child elements horizontally */
+  width: 100%; /* Full width of the container */
+  justify-content: space-between; /* Space between the segments */
+  z-index: 1;
+  padding-bottom: 2rem;
+}
+.bottomChild {
+  height: 0.056rem; /* Line thickness */
+  position: relative;
+  display: flex; /* Arrange the child elements horizontally */
+  width: 100%; /* Full width of the container */
+  margin: 0 auto;
+  justify-content: space-between; /* Space between the segments */
+  z-index: 1;
+}
+
+.segment {
+  border-top: 1px solid var(--color-4); /* Line color */
+  height: 0.056rem; /* Line thickness */
+  flex: 1; /* Ensure each segment takes equal width */
+  margin: 0 4rem; /* Add space between the segments */
+  margin-left: -0.1rem;
+}
+
+.strategicProjectPlanning {
+  width: 19.039rem;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+  margin-top: 0.8rem;
+}
+.reviewOfPortfoliosites {
+  margin-bottom: 0px;
+}
+.reviewOfPortfoliositesD {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.procurementStrategy {
+  margin: 0;
+}
+.reviewOfPortfoliositesContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-5);
+  z-index: 1;
+  margin-bottom: 0.8rem;
+}
+.strategicProjectPlanningParent {
+  width: 19rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lineParent {
+  display: flex;
+  flex-direction: column;
+  /* gap: var(--gap-10xl-8); */
+  width: auto;
+  flex-shrink: 0;
+}
+.clientRepresentative {
+  width: 21.85rem;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+  margin-top: 0.8rem;
+}
+.stakeholderManagementProcurContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-5);
+  display: inline-block;
+  min-height: 9.222rem;
+  z-index: 1;
+}
+.clientRepresentativeParent {
+  width: 19rem;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  flex-shrink: 0;
+  /* margin-left: -42px; */
+}
+.lineGroup {
+  width: 27.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-base) 0rem 0rem;
+  box-sizing: border-box;
+  gap: var(--gap-10xl-8);
+  max-width: 100%;
+}
+.projectLeadership {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+  margin-top: 0.8rem;
+}
+.teamLeadershipStrategicContainer {
+  width: 11.717rem;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-5);
+  display: inline-block;
+  min-height: 9.222rem;
+  z-index: 1;
+}
+.projectLeadershipParent {
+  width: 19rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.serviceItems {
+  display: flex;
+  flex-direction: row; /* Ensure items are laid out horizontally */
+  flex-wrap: nowrap; /* Prevent wrapping */
+  align-items: flex-start; 
+  justify-content: flex-start;
+  /* gap: 1rem; Adjust spacing between items */
+  max-width: 100%; /* Ensure the width stays within container limits */
+  overflow-x: auto; /* Optional: if content overflows, add horizontal scrolling */
+  column-gap: 7rem;
+}
+.lineDiv {
+  height: 0.056rem;
+  width: 100%;
+  position: relative;
+  border-top: 1px solid var(--color-4);
+  box-sizing: border-box;
+  /* max-width: calc(100% - 1118px); */
+  z-index: 1;
+}
+.lineWrapper {
+  width: 27.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-base) 0rem 0rem;
+  box-sizing: border-box;
+  /* max-width: calc(100% - 1102px); */
+}
+.frameDiv {
+  height: 0.056rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem 0rem var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-53xl);
+  max-width: 100%;
+}
+.serviceList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid-2);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-4);
+  font-family: var(--font-urbanist);
+  margin-top: 2.5rem;
+  /* margin-left: 2rem; */
+}
+
+.horizontalLine {
+  display: none; /* Hidden by default */
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-4); /* Adjust to your line color */
+}
+.customLine{
+  width: 100%;
+    height: 1px;
+    background-color: var(--color-4);
+}
+
+@media screen and (max-width: 3000px) {
+  .serviceItems {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1300px ) {
+    /* .clientRepresentativeParent {
+    margin-left: -30px;
+    width: 20.85rem;
+  }
+  .projectLeadershipParent {
+    margin-left: 42px;
+  } */
+}
+@media screen and (max-width: 1200px ) {
+  /* .clientRepresentativeParent {
+  margin-left: -35px;
+}
+.projectLeadershipParent {
+  margin-left: 1.3rem;
+} */
+/* .serviceItems {
+  width: 1110px;
+} */
+ .serviceItems {
+  column-gap: 5rem;
+ }
+}
+@media screen and (max-width: 1170px) {
+  .serviceItems{
+    column-gap: 4rem;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .serviceItems{
+    column-gap: 3rem;
+  }
+}
+@media screen and (min-width: 1000px) and ( max-width: 1105px) {
+  .serviceItems {
+    width: 1010px;
+  }
+  /* .clientRepresentativeParent {
+    margin-left: -67px;
+  }
+  .projectLeadershipParent {
+    margin-left: -0.5rem;
+  } */
+}
+@media screen and (max-width: 1023px) {
+  .customLine{
+      height: 0px;
+  }
+  .serviceItems {
+    gap: var(--gap-17xl);
+    overflow-x: hidden;
+    column-gap: 0rem;
+    width: -webkit-fill-available;
+  }
+
+  .frameDiv {
+    gap: var(--gap-17xl);
+  }
+  .horizontalLine {
+    display: block; /* Show the line for mobile */
+    width: -webkit-fill-available;
+  }
+  .stakeholderManagementProcurContainer{
+    min-height: 3.222rem;
+  }
+  .teamLeadershipStrategicContainer{
+    min-height: 5.444rem;
+  }
+  .serviceList{
+    margin-left: 0rem;
+  }
+  .clientRepresentativeParent{
+    margin-left: 0px;
+  }
+  .strategicProjectPlanning {
+    font-size: var(--font-size-lgi);
+  }
+
+  .clientRepresentative {
+    font-size: var(--font-size-lgi);
+  }
+
+  .projectLeadership {
+    font-size: var(--font-size-lgi);
+  }
+
+  .frameDiv {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 650px) {
+  .serviceItems{
+    max-width: 100%;
+    gap: var(--gap-lg);
+    max-width: --webkit-fill-available;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* .clientRepresentativeParent{
+    margin-left: 0px;
+  }
+  .strategicProjectPlanning {
+    font-size: var(--font-size-lgi);
+  }
+
+  .clientRepresentative {
+    font-size: var(--font-size-lgi);
+  }
+
+  .projectLeadership {
+    font-size: var(--font-size-lgi);
+  }
+
+  .serviceItems {
+    gap: var(--gap-lg);
+  }
+
+  .frameDiv {
+    gap: var(--gap-lg);
+  } */
+  /* .serviceItems{
+    max-width: 100%;
+  } */
+}
+/* @media screen and (max-width: 550px) {
+  .serviceItems{
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .serviceItems{
+    max-width: 68%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .serviceItems{
+    max-width: 68%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .serviceItems{
+    max-width: 58%;
+  }
+} */
+@media screen and (max-width: 430px) {
+  .serviceItems{
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .serviceItems{
+    max-width: 80%;
+  }
+} 
+
+@media screen and (max-width: 350px) {
+  .serviceItems{
+    max-width: 72%;
+  }
+}
